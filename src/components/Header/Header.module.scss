@@ -1,0 +1,88 @@
+.Header {
+  width: 1300px;
+  height: 681px;
+
+  border-radius: 60px;
+  opacity: 0.85;
+  background-color: #ffffff;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+
+  .inner_cont {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    //     background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    .cont_left {
+      padding: 20px;
+      > aside {
+        display: flex;
+        gap: 20px;
+        align-items: flex-end;
+        margin: 10px 0;
+        h6 {
+          font-size: 14px;
+        }
+        h4 {
+          color: #152547;
+          line-height: 22px;
+          font-size: 14px;
+          font-family: "FuturaPT", Arial, sans-serif;
+          line-height: 1.55;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+
+      .text_cont {
+        h2 {
+          font-size: 65px;
+          font-family: "FuturaPT", Arial, sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: rgb(21, 37, 71);
+          font-family: "FuturaPT", Arial, sans-serif;
+          span {
+            color: rgb(196, 64, 214);
+          }
+        }
+
+        h4 {
+          color: #152547;
+          font-size: 30px;
+          font-family: "FuturaPT", Arial, sans-serif;
+          line-height: 1.55;
+          font-weight: 700;
+          text-transform: uppercase;
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+          margin-bottom: 10px;
+
+          span {
+            color: rgb(196, 64, 214);
+            margin: 0 8px;
+          }
+        }
+
+        h5 {
+          color: #152547;
+          font-size: 28px;
+          font-family: "FuturaPT", Arial, sans-serif;
+          line-height: 40px;
+          font-weight: 500;
+          background-position: center center;
+          border-color: transparent;
+          border-style: solid;
+        }
+      }
+    }
+  }
+}
