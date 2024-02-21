@@ -8,4 +8,13 @@
     justify-content: center;
     align-items: center;
   }
+
+  .card_cont{
+      padding-block:30px ;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      width: 88%;
+      margin: 0 auto;
+  }
 }
