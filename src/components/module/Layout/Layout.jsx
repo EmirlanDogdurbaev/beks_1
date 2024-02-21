@@ -1,5 +1,6 @@
 import Cards from "../../Cards/Cards";
 import Header from "../../Header/Header";
+import Stage from "../../Stage/Stage";
 import classes from "./Layout.module.scss";
 const Layout = () => {
   return (
@@ -53,6 +54,10 @@ const Layout = () => {
             </p>
           </div>
         </div>
+      </section>
+
+      <section>
+            <Stage/>
       </section>
     </main>
   );
