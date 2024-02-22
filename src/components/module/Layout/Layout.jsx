@@ -56,8 +56,16 @@ const Layout = () => {
         </div>
       </section>
 
-      <section>
-            <Stage/>
+      <section className={classes.path}>
+        <div>
+          <h3>
+            Ваш путь на обучении в <span>3 этапа</span>
+          </h3>
+          <h5>
+            <span>ЭТАП № 1:</span> Разберётесь как устроены маркетплейсы
+          </h5>
+        </div>
+        <Stage />
       </section>
     </main>
   );
