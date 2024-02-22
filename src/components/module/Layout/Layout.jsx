@@ -13,6 +13,9 @@ const Layout = () => {
   const [isRotated6, setIsRotated6] = useState(false);
   const [isRotated7, setIsRotated7] = useState(false);
   const [isRotated8, setIsRotated8] = useState(false);
+  const [isRotated9, setIsRotated9] = useState(false);
+  const [isRotated10, setIsRotated10] = useState(false);
+  const [isRotated11, setIsRotated11] = useState(false);
 
   const [isActive1, setIsActive1] = useState(false);
   const [isActive2, setIsActive2] = useState(false);
@@ -22,51 +25,57 @@ const Layout = () => {
   const [isActive6, setIsActive6] = useState(false);
   const [isActive7, setIsActive7] = useState(false);
   const [isActive8, setIsActive8] = useState(false);
+  const [isActive9, setIsActive9] = useState(false);
+  const [isActive10, setIsActive10] = useState(false);
+  const [isActive11, setIsActive11] = useState(false);
 
   const handleClick = () => {
     setIsActive(!isActive);
-
     setIsRotated(!isRotated);
   };
   const handleClick1 = () => {
     setIsRotated1(!isRotated1);
-
     setIsActive1(!isActive1);
   };
   const handleClick2 = () => {
     setIsRotated2(!isRotated2);
-
     setIsActive2(!isActive2);
   };
   const handleClick3 = () => {
     setIsRotated3(!isRotated3);
-
     setIsActive3(!isActive3);
   };
   const handleClick4 = () => {
     setIsRotated4(!isRotated4);
-
     setIsActive4(!isActive4);
   };
   const handleClick5 = () => {
     setIsRotated5(!isRotated5);
-
     setIsActive5(!isActive5);
   };
   const handleClick6 = () => {
     setIsRotated6(!isRotated6);
-
     setIsActive6(!isActive6);
   };
   const handleClick7 = () => {
     setIsRotated7(!isRotated7);
-
     setIsActive7(!isActive7);
   };
   const handleClick8 = () => {
     setIsRotated8(!isRotated8);
-
     setIsActive8(!isActive8);
+  };
+  const handleClick9 = () => {
+    setIsRotated9(!isRotated9);
+    setIsActive9(!isActive9);
+  };
+  const handleClick10 = () => {
+    setIsRotated10(!isRotated10);
+    setIsActive10(!isActive10);
+  };
+  const handleClick11 = () => {
+    setIsRotated11(!isRotated11);
+    setIsActive11(!isActive11);
   };
 
   return (
@@ -641,6 +650,176 @@ const Layout = () => {
             </li>
             <li>Можете вести 2-4 поставщика </li>
           </ul>
+        </div>
+      </section>
+
+      <section className={classes.path3}>
+        <div className={classes.header_path3}>
+          <h3>
+            <span>ЭТАП №3: </span>навыки продвинутого менеджера
+          </h3>
+        </div>
+        <div className={classes.Stage}>
+          <button className={classes.Stage_button} onClick={handleClick9}>
+            <h6 className={classes.Stage_button_h6}>Реклама и продвижение</h6>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              className={`${classes.Stage_icon} ${
+                isRotated9 ? classes.rotated : ""
+              }`}
+            >
+              <line
+                x1="0"
+                y1="0"
+                x2="24"
+                y2="24"
+                stroke="black"
+                strokeWidth="2"
+              />
+              <line
+                x1="24"
+                y1="0"
+                x2="0"
+                y2="24"
+                stroke="black"
+                strokeWidth="2"
+              />
+            </svg>
+          </button>
+          <div
+            className={
+              isActive9
+                ? `${classes.Stage_div} ${classes.expanded9}`
+                : classes.Stage_div
+            }
+          >
+            {isActive9 && (
+              <div className={classes.inner_cont}>
+                <ul>
+                  <li>Тренды и способы продвижения</li>
+                  <li>Как повлиять на решение клиента о покупке</li>
+                  <li>Продвижение через выкупы</li>
+                  <li>Закупка рекламы в пабликах и блогах</li>
+                  <li>Внешняя и внутренняя реклама</li>
+                  <li>Оценка эффективности рекламы</li>
+                </ul>
+                <div className={classes.bottom}>
+                  <p>
+                    На этом навыке сможете зарабатывать от 30-40 тыс в месяц с
+                    одного кабинета
+                  </p>
+                  <p>Можно продвигать 2-3 кабинета </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+        <div className={classes.Stage}>
+          <button className={classes.Stage_button} onClick={handleClick10}>
+            <h6 className={classes.Stage_button_h6}>Выбор ниши и товара</h6>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              className={`${classes.Stage_icon} ${
+                isRotated10 ? classes.rotated : ""
+              }`}
+            >
+              <line
+                x1="0"
+                y1="0"
+                x2="24"
+                y2="24"
+                stroke="black"
+                strokeWidth="2"
+              />
+              <line
+                x1="24"
+                y1="0"
+                x2="0"
+                y2="24"
+                stroke="black"
+                strokeWidth="2"
+              />
+            </svg>
+          </button>
+          <div
+            className={
+              isActive10
+                ? `${classes.Stage_div} ${classes.expanded10}`
+                : classes.Stage_div
+            }
+          >
+            {isActive10 && (
+              <div className={classes.inner_cont}>
+                <ul>
+                  <li>Анализ ниши</li>
+                  <li>Анализ товаров</li>
+                  <li>Поиск поставщика</li>
+                </ul>
+                <div className={classes.bottom}>
+                  <p>
+                    Благодаря этому навыку вы увеличите ЗП минимум на 10 000
+                    руб. в месяц
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+        <div className={classes.Stage}>
+          <button className={classes.Stage_button} onClick={handleClick11}>
+            <h6 className={classes.Stage_button_h6}>
+              Анализ и разработка стратегии развития магазина на WB
+            </h6>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              className={`${classes.Stage_icon} ${
+                isRotated11 ? classes.rotated : ""
+              }`}
+            >
+              <line
+                x1="0"
+                y1="0"
+                x2="24"
+                y2="24"
+                stroke="black"
+                strokeWidth="2"
+              />
+              <line
+                x1="24"
+                y1="0"
+                x2="0"
+                y2="24"
+                stroke="black"
+                strokeWidth="2"
+              />
+            </svg>
+          </button>
+          <div
+            className={
+              isActive11
+                ? `${classes.Stage_div} ${classes.expanded11}`
+                : classes.Stage_div
+            }
+          >
+            {isActive11 && (
+              <div className={classes.inner_cont}>
+                <ul>
+                  <li>Анализ продаж товара</li>
+                  <li>Финансовые отчеты</li>
+                  <li>Отслеживание точек роста в бизнесе</li>
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       </section>
     </main>
