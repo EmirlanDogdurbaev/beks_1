@@ -711,7 +711,11 @@
   .tools_cont {
     width: 80%;
     margin: 0 auto;
-    background-image: url('../../../assets/BACKGROUND_.svg.png');
-    background-position: right ;
+    background-image: url("../../../assets/BACKGROUND_.svg.png");
+    background-position: right;
+  }
+
+  .tarif_cont {
+    padding-top: 50px;
   }
 }
