@@ -1,4 +1,5 @@
 .main {
+  //  это для самой верхнего хедера
   .head {
     background-image: url(../../../assets/header.png);
     height: 100vh;
@@ -101,6 +102,7 @@
     }
   }
 
+  // это для карточек 2 этапа
   .path {
     width: 100%;
 
@@ -466,7 +468,7 @@
     .Stage_icon.rotated {
       transform: rotate(45deg);
     }
-
+    // это для 2 этапа заголовок
     .next {
       padding: 40px 0;
       h4 {
@@ -481,7 +483,7 @@
         margin: 20px auto;
       }
     }
-
+    // это для текста между 2 и 3 этапом
     .after {
       width: 80%;
       margin: 0 auto;
@@ -512,7 +514,7 @@
     }
   }
 
-  //   fdsfdsfsdf
+  // это стили для карточек 3 этапа
   .path3 {
     width: 100%;
     .header_path3 {
@@ -649,43 +651,67 @@
         }
       }
       .Stage_div.expanded11 {
-            height: 140px;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            transition: height 0.3s ease-in-out;
-    
-            > .inner_cont {
-              width: 90%;
-              margin: 0 auto;
-    
-              display: flex;
-              flex-direction: column;
-              align-items: flex-start;
-              gap: 20px;
-    
-              ul {
-                list-style-type: disc;
-    
-                li {
-                  font-size: 18px;
-                  line-height: 1.3;
-                  color: #152547;
-                  font-weight: 400;
-                  padding: 3px 0;
-                }
-              }
-              .bottom {
-                margin-left: -15px;
-                p {
-                  font-size: 18px;
-                  color: #152547;
-                  font-weight: 400;
-                  padding: 3px 0;
-                }
-              }
+        height: 140px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        transition: height 0.3s ease-in-out;
+
+        > .inner_cont {
+          width: 90%;
+          margin: 0 auto;
+
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 20px;
+
+          ul {
+            list-style-type: disc;
+
+            li {
+              font-size: 18px;
+              line-height: 1.3;
+              color: #152547;
+              font-weight: 400;
+              padding: 3px 0;
             }
           }
+          .bottom {
+            margin-left: -15px;
+            p {
+              font-size: 18px;
+              color: #152547;
+              font-weight: 400;
+              padding: 3px 0;
+            }
+          }
+        }
+      }
     }
+  }
+
+  // этот текст идет после 3 этапа
+  .text {
+    width: 80%;
+    margin: 40px auto;
+    padding: 50px 0;
+
+    p {
+      color: #9721c2;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.35;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  // здесь его конец
+
+  .tools_cont {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url('../../../assets/BACKGROUND_.svg.png');
+    background-position: right ;
   }
 }

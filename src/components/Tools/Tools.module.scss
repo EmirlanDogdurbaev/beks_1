@@ -1,0 +1,85 @@
+.Tools {
+  width: 100%;
+  display: flex;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+      color: #152547;
+      font-size: 41px;
+      font-family: "FuturaPT", Arial, sans-serif;
+      line-height: 1.4;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .t {
+      color: #152547;
+      font-size: 18px;
+      font-family: "FuturaPT", Arial, sans-serif;
+      line-height: 1.25;
+      font-weight: 600 !important;
+      background-position: center center;
+      border-color: transparent;
+      border-style: solid;
+    }
+
+    article {
+      width: 750px;
+      height: 450px;
+      background-image: url("../../assets/bg.png");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+
+      p {
+        width: 90%;
+        margin: 0 auto;
+        color: #152547;
+        font-size: 18px;
+        font-family: "FuturaPT", Arial, sans-serif;
+        line-height: 1.25;
+        font-weight: 300;
+        background-position: center center;
+        border-color: transparent;
+        border-style: solid;
+
+        strong {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+
+    .first {
+      margin-left: -50px;
+      z-index: 1;
+    }
+
+    .second {
+      margin-top: -180px;
+      margin-left: 100px;
+      z-index: 2;
+    }
+
+    .third {
+      margin-top: -130px;
+      margin-left: -63px;
+      rotate: -5deg;
+
+      z-index: 3;
+    }
+  }
+}

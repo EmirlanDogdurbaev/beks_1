@@ -1,5 +1,6 @@
 import Cards from "../../Cards/Cards";
 import Header from "../../Header/Header";
+import Tools from "../../Tools/Tools";
 import classes from "./Layout.module.scss";
 import React, { useState } from "react";
 const Layout = () => {
@@ -821,6 +822,18 @@ const Layout = () => {
             )}
           </div>
         </div>
+      </section>
+
+      <section className={classes.text}>
+        <p>
+          после этого этапа вы увеличите стоимость своей работы будете получать
+          от 50 000 в месяц <br />+ на каждом навыке сможете зарабатывать
+          отдельно
+        </p>
+      </section>
+
+      <section className={classes.tools_cont}>
+        <Tools />
       </section>
     </main>
   );
