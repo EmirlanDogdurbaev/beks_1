@@ -1,3 +1,4 @@
+import Banner from "../../Banner/Banner";
 import Cards from "../../Cards/Cards";
 import Header from "../../Header/Header";
 import Tarif from "../../Tarif/Tarif";
@@ -844,6 +845,10 @@ const Layout = () => {
 
       <section className={classes.tarif_cards_cont}>
         <TarifCards/>
+      </section>
+
+      <section>
+        <Banner/>
       </section>
     </main>
   );
