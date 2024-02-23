@@ -1,6 +1,7 @@
 import Cards from "../../Cards/Cards";
 import Header from "../../Header/Header";
 import Tarif from "../../Tarif/Tarif";
+import TarifCards from "../../TarifCards/TarifCards";
 import Tools from "../../Tools/Tools";
 import classes from "./Layout.module.scss";
 import React, { useState } from "react";
@@ -839,6 +840,10 @@ const Layout = () => {
 
       <section className={classes.tarif_cont}>
         <Tarif />
+      </section>
+
+      <section className={classes.tarif_cards_cont}>
+        <TarifCards/>
       </section>
     </main>
   );
