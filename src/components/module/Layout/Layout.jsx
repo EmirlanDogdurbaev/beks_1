@@ -1,4 +1,5 @@
 import Banner from "../../Banner/Banner";
+import Book from "../../Book/Book";
 import Cards from "../../Cards/Cards";
 import Header from "../../Header/Header";
 import Tarif from "../../Tarif/Tarif";
@@ -849,6 +850,10 @@ const Layout = () => {
 
       <section>
         <Banner/>
+      </section>
+
+      <section>
+        <Book/>
       </section>
     </main>
   );
