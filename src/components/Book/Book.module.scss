@@ -254,9 +254,15 @@
 
 @media screen and (max-width: 410px) {
   .Book {
+    margin-top: 50px;
     .cont {
       width: 370px;
       margin-top: 20px;
+      height: auto;
+      padding: 30px;
+    }
+    .cont2{
+      height: auto;
     }
 
     h3 {

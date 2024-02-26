@@ -547,3 +547,34 @@
     }
   }
 }
+
+@media screen and (max-width:410px){
+  .path{
+    .Stage{
+      .Stage_div.expanded2{
+        height: 450px !important;
+      }
+      .Stage_div.expanded3{
+        height: 200px !important;
+      }
+      .Stage_div.expanded5{
+        height: 200px !important;
+      }
+      .Stage_div.expanded6{
+        height: 400px !important;
+      }
+      .Stage_div.expanded7{
+        height: 200px !important;
+      }
+      .Stage_div.expanded8{
+        height: 250px !important;
+      }
+      .Stage_div.expanded9{
+        height: 200px !important;
+      }
+      .Stage_div.expanded10{
+        height: 200px !important;
+      }
+    }
+  }
+}
