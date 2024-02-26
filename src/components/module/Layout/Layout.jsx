@@ -1,6 +1,8 @@
+import After from "../../After/After";
 import Banner from "../../Banner/Banner";
 import Book from "../../Book/Book";
 import Cards from "../../Cards/Cards";
+import FAQ from "../../FAQ/FAQ";
 import Header from "../../Header/Header";
 import Tarif from "../../Tarif/Tarif";
 import TarifCards from "../../TarifCards/TarifCards";
@@ -845,15 +847,23 @@ const Layout = () => {
       </section>
 
       <section className={classes.tarif_cards_cont}>
-        <TarifCards/>
+        <TarifCards />
       </section>
 
       <section>
-        <Banner/>
+        <Banner />
       </section>
 
       <section>
-        <Book/>
+        <Book />
+      </section>
+
+      <section>
+        <After />
+      </section>
+
+      <section>
+        <FAQ />
       </section>
     </main>
   );

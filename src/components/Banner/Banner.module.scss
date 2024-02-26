@@ -8,7 +8,7 @@
   .hight_cont {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 0 0 ;
+    padding: 30px 0 0 0;
     width: 90%;
     margin: 0 auto;
 
@@ -47,7 +47,6 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 40px;
-      position: relative;
 
       ul {
         li {
@@ -79,7 +78,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 20px;
-
+      color: #cb11ab;
       > p {
         color: #1a1a1a;
         font-size: 20px;
@@ -89,6 +88,7 @@
         background-position: center center;
         border-color: transparent;
         border-style: solid;
+        color: #cb11ab;
       }
     }
 
@@ -116,7 +116,7 @@
     width: 88%;
     margin-left: 60px;
     margin-top: 20px;
-    padding: 30px 0 0 0 ;
+    padding: 30px 0 0 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -140,14 +140,94 @@
       border-color: transparent;
       border-style: solid;
 
-      >a{
-            color: #ff008c;
-            text-decoration: underline;
+      > a {
+        color: #ff008c;
+        text-decoration: underline;
       }
     }
 
-    .o2{
-      rotate: -20deg ;
+    .o2 {
+      rotate: -20deg;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .Banner {
+    margin: 20px auto;
+    width: 70%;
+    height: 544px;
+
+    .hight_cont {
+      padding: 10px 0;
+
+      h4 {
+        font-size: 36px !important;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .hight_left {
+      padding: 10px 0;
+      flex-direction: column;
+      width: 40%;
+
+      ul {
+        li {
+          font-size: 16px !important;
+          line-height: 1;
+          font-weight: 600;
+        }
+      }
+
+      .O {
+        width: 87px;
+        height: 102px;
+        margin-left: -100px;
+        margin-bottom: -30px;
+        rotate: -20deg !important;
+      }
+    }
+
+    .middle_cont {
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      > span {
+        > p {
+          font-size: 18px;
+          color: #cb11ab;
+        }
+      }
+
+      .middle_btn {
+        font-size: 20px;
+        width: 290px;
+        height: 70px;
+      }
+    }
+
+    .low_cont {
+      width: 90%;
+      gap: 40px;
+      margin-left: 30px;
+
+      p {
+        font-size: 16px;
+        text-align: center;
+      }
+      .o2 {
+        display: none;
+      }
+
+      .t {
+        width: 300px;
+        font-size: 16px;
+        text-align: left;
+      }
     }
   }
 }

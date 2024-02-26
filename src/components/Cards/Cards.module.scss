@@ -24,3 +24,12 @@
     border-style: solid;
   }
 }
+
+
+@media (max-width: 960px) {
+  .Card{
+    >h5{
+      font-size: 35px;
+    }
+  }
+}

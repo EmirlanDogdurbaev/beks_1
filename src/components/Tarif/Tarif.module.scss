@@ -36,3 +36,25 @@
     }
   }
 }
+
+@media (max-width: 960px) {
+  .Tarif {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+
+    .img_cont {
+      order: 1;
+      width: 375px;
+    }
+
+    .right_text {
+      h3 {
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.1;
+        margin: 5px 0;
+      }
+    }
+  }
+}

@@ -224,3 +224,19 @@
     }
   }
 }
+
+@media (max-width: 960px) {
+  .TarifCards {
+    h3 {
+      width: 400px;
+      font-size: 36px;
+      line-height: 1.2;
+      margin: 0 auto;
+    }
+    > .inner_cards {
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+  }
+}
