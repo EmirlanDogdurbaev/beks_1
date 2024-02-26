@@ -626,7 +626,7 @@ const Layout = () => {
             <div
               className={
                 isActive8
-                  ? `${classes.Stage_div} ${classes.expanded6}`
+                  ? `${classes.Stage_div} ${classes.expanded8}`
                   : classes.Stage_div
               }
             >

@@ -233,26 +233,10 @@
         padding: 5px;
       }
     }
-
-    //     .cont {
-    //       width: 80%;
-
-    //       .inner_cont_1 {
-    //         width: 80%;
-    //       }
-    //     }
-
-    //     .cont2{
-    //       width: 80%;
-
-    //       .list{
-    //             width: 70%;
-    //       }
-    //     }
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 425px) {
   .Book {
     margin-top: 50px;
     .cont {
@@ -261,7 +245,7 @@
       height: auto;
       padding: 30px;
     }
-    .cont2{
+    .cont2 {
       height: auto;
     }
 

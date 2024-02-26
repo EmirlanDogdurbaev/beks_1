@@ -149,7 +149,7 @@
   }
 }
 
-@media screen and (max-width:410px){
+@media screen and (max-width:425px){
   .After{
     width: 100%;
     display: flex;
@@ -164,7 +164,11 @@
       height: auto;
 
       h1{
-        font-size: 22px;
+        font-size: 20px !important;
+      }
+
+      p{
+        font-size: 18px !important;
       }
     }
   }
