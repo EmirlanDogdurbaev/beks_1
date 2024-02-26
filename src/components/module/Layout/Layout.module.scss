@@ -813,3 +813,346 @@
     }
   }
 }
+
+@media (max-width: 410px) {
+  .card_cont {
+    padding: 15px 0;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .about {
+    padding-bottom: 20px !important;
+    .title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h3 {
+        font-size: 26px !important;
+        line-height: 1.2;
+        text-align: center;
+
+        > span {
+          padding: 3px;
+        }
+      }
+      p {
+        font-size: 22px;
+        line-height: 1.2;
+      }
+    }
+
+    .list_cont {
+      h5 {
+        font-size: 22px;
+        opacity: 1;
+      }
+
+      > div {
+        display: flex;
+        align-items: flex-start;
+        p {
+          font-size: 18px !important;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .path {
+    .header_path {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h3 {
+        font-size: 23px !important;
+        text-align: left;
+        margin: 10px auto;
+      }
+
+      h5 {
+        font-size: 20px !important;
+        text-align: left;
+        margin: 10px 0;
+        line-height: 1.2;
+      }
+    }
+
+    .Stage {
+      margin: 10px 0;
+    }
+
+    .next {
+      padding: 20px 0;
+
+      h4 {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    .after {
+      h6 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+  .path {
+    .header_path3 {
+      > h3 {
+        font-size: 36px !important;
+        text-align: center;
+      }
+    }
+
+    .Stage {
+      margin: 10px 0;
+
+      .Stage_button {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+        background-color: #ffffff;
+
+        .Stage_button_h6 {
+          font-size: 14px !important;
+          font-weight: 600;
+
+          .violet {
+            color: #9721c2;
+            margin-right: 5px;
+          }
+        }
+      }
+
+      .Stage_div.expanded {
+        height: 550px !important;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        transition: height 0.3s ease-in-out;
+
+        > .inner_cont {
+          width: 80% !important;
+          margin: 0 auto;
+
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 20px;
+
+          ul {
+            list-style-type: disc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            li {
+              font-size: 16px !important;
+              padding: 5px 0;
+              line-height: 1.3;
+              color: #152547;
+              font-weight: 400;
+            }
+          }
+
+          p {
+            font-size: 16px !important;
+            letter-spacing: 1px;
+
+            strong {
+              margin-left: -15px;
+            }
+          }
+
+          .bottom_text {
+            h6 {
+              font-size: 18px;
+              margin: 5px 0;
+              margin-left: -15px;
+            }
+
+            ul {
+              padding-bottom: 20px;
+              li {
+                font-size: 18px;
+                line-height: 1.3;
+                color: #152547;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .next {
+      h4 {
+        font-size: 16px !important;
+        line-height: 1.3 !important;
+        text-align: left;
+      }
+
+      > .header_path {
+        > h3 {
+          font-size: 16px !important;
+        }
+      }
+
+      .Stage {
+        width: 80%;
+        margin: 20px auto;
+
+        .Stage_button {
+          border: none;
+          width: 100%;
+          display: flex;
+
+          padding: 20px 30px;
+          background-color: #ffffff;
+
+          .Stage_button_h6 {
+            font-size: 16px;
+          }
+        }
+        .Stage_icon {
+          transition: transform 0.3s ease;
+        }
+
+        .Stage_icon.rotated {
+          transform: rotate(45deg);
+        }
+        .Stage_div {
+          cursor: pointer;
+          background-color: #ffffff;
+          border: none;
+          width: 100%;
+          transition: height 0.3s ease-in-out;
+          height: 0px;
+          overflow: hidden;
+        }
+        .Stage_div.expanded2 {
+          height: 120px;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          transition: height 0.3s ease-in-out;
+
+          > .inner_cont {
+            width: 80%;
+            margin: 0 auto;
+            ul {
+              li {
+                font-size: 16px;
+                line-height: 1.3;
+                color: #152547;
+                font-weight: 400;
+                padding: 3px 0;
+              }
+            }
+          }
+        }
+        .Stage_div.expanded3 {
+          height: 120px;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          transition: height 0.3s ease-in-out;
+
+          > .inner_cont {
+            width: 80%;
+            margin: 0 auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+
+            ul {
+              list-style-type: disc;
+
+              li {
+                font-size: 18px;
+                line-height: 1.3;
+                color: #152547;
+                font-weight: 400;
+                padding: 3px 0;
+              }
+            }
+            .bottom {
+              margin-left: -15px;
+              p {
+                font-size: 18px;
+                color: #152547;
+                font-weight: 400;
+                padding: 3px 0;
+              }
+            }
+          }
+        }
+        .Stage_div.expanded4 {
+          height: 340px;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          transition: height 0.3s ease-in-out;
+
+          > .inner_cont {
+            width: 80%;
+            margin: 0 auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+
+            ul {
+              list-style-type: disc;
+
+              li {
+                font-size: 16px;
+                line-height: 1.3;
+                color: #152547;
+                font-weight: 400;
+                padding: 5px 0;
+              }
+            }
+            .bottom {
+              margin-left: -15px;
+              p {
+                font-size: 18px;
+                color: #152547;
+                font-weight: 400;
+                padding: 3px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .text {
+    padding: 20px 0 !important;
+    p {
+      line-height: 1.5;
+      font-size: 18px;
+    }
+  }
+}
+
+// @media (max-width: 410px) {
+//   // .main {
+//   //   // .tarif_cards_cont {
+//   //   //   width: 90% !important;
+//   //   //   display: flex !important;
+//   //   //   margin: 0 auto !important;
+//   //   //   flex-direction: column !important;
+//   //   //   align-items: center !important;
+//   //   // }
+//   // }
+// }

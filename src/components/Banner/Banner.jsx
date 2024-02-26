@@ -5,6 +5,7 @@ const Banner = () => {
     <div className={classes.Banner}>
       <div className={classes.hight_cont}>
         <div className={classes.hight_title}>
+          <img src="https://optim.tildacdn.com/tild3635-6665-4730-b038-333664323565/-/resize/218x/-/format/webp/1-min_1.png" alt="00" className={classes.noneimg}/>
           <h4>Беспроцентная рассрочка</h4>
           <p>от 6 249 руб. / месяц</p>
         </div>

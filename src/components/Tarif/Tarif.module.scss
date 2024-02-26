@@ -58,3 +58,19 @@
     }
   }
 }
+
+@media  screen and (max-width:410px) {
+  .Tarif{
+    .right_text{
+      h3{
+        font-size: 28px;
+        width: 380px;
+        margin-bottom: 20px;
+      }
+    }
+    .img_cont{
+      width: 95%;
+      height: 60%;
+    }
+  }
+}

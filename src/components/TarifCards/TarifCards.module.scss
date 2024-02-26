@@ -11,8 +11,7 @@
   }
 
   > .inner_cards {
-    width: 80%;
-    margin: 0 auto;
+    margin: 0 auto !important;
 
     display: flex;
     justify-content: space-between;
@@ -240,3 +239,4 @@
     }
   }
 }
+

@@ -234,20 +234,38 @@
       }
     }
 
-//     .cont {
-//       width: 80%;
+    //     .cont {
+    //       width: 80%;
 
-//       .inner_cont_1 {
-//         width: 80%;
-//       }
-//     }
+    //       .inner_cont_1 {
+    //         width: 80%;
+    //       }
+    //     }
 
-//     .cont2{
-//       width: 80%;
+    //     .cont2{
+    //       width: 80%;
 
-//       .list{
-//             width: 70%;
-//       }
-//     }
+    //       .list{
+    //             width: 70%;
+    //       }
+    //     }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .Book {
+    .cont {
+      width: 370px;
+      margin-top: 20px;
+    }
+
+    h3 {
+      font-size: 28px;
+      padding: 5px;
+    }
+
+    .second {
+      display: none !important;
+    }
   }
 }

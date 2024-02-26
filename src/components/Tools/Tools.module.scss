@@ -126,3 +126,27 @@
     }
   }
 }
+
+@media screen and (max-width: 410px) {
+  .Tools {
+    .right{
+      display: none;
+    }
+    > .left {
+      width: 100%;
+      article {
+        width: 370px !important;
+        background-size: 100%;
+        background-image: none;
+        background-color: white;
+        border-radius: 30px;
+        padding: 30px 20px;
+        height: auto;
+        margin: 0 auto !important;
+        p {
+          width: 100%;
+        }
+      } 
+    }
+  }
+}
