@@ -9,7 +9,6 @@
   .left {
     width: 720px;
     height: 670px;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -111,14 +110,14 @@
   }
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .After {
     padding: 150px 0;
     width: 95%;
     margin: 0 auto;
 
     .left {
-      width: 536px !important;
+      width: 536px ;
       > h1 {
         font-size: 26px;
         line-height: 1.2;
@@ -152,10 +151,21 @@
 
 @media screen and (max-width:410px){
   .After{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
     .right {
       display: none;
-  
-      
+    }
+    .left{
+      width: 370px;
+      height: auto;
+
+      h1{
+        font-size: 22px;
+      }
     }
   }
 }
