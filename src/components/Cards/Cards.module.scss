@@ -33,21 +33,20 @@
   }
 }
 
-// @media (max-width: 410px) {
-//   .Card {
-//     width: 156px;
-//     padding: 10px;
-//     > h5 {
-//       color: #9721c2;
-//       font-size: 32px;
-//       line-height: 1.2 !important;
-
-//     }
-
-//     > p {
-//       color: #152547;
-//       font-size: 16px;
-//       opacity: 1;
-//     }
-//   }
-// }
+@media (max-width: 425px) {
+  .Card {
+    width: 156px;
+    padding: 10px;
+    > h5 {
+      color: #9721c2;
+      font-size: 25px !important;
+      line-height: 1.2 !important;
+      margin-bottom: 5px;
+    }
+    > p {
+      color: #152547;
+      font-size: 14px;
+      opacity: 1;
+    }
+  }
+}
