@@ -1145,14 +1145,111 @@
   }
 }
 
-// @media (max-width: 410px) {
-//   // .main {
-//   //   // .tarif_cards_cont {
-//   //   //   width: 90% !important;
-//   //   //   display: flex !important;
-//   //   //   margin: 0 auto !important;
-//   //   //   flex-direction: column !important;
-//   //   //   align-items: center !important;
-//   //   // }
-//   // }
-// }
+@media (max-width: 425px) {
+  .main {
+    .card_cont {
+      margin: 100px auto 20px !important;
+    }
+
+    .about {
+      .title {
+        > h3 {
+          font-size: 30px !important;
+          text-align: center;
+          line-height: 1.2;
+        }
+        p {
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+
+      .list_cont {
+        > h5 {
+          font-size: 26px;
+        }
+
+        > div {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .path {
+      .header_path {
+        h3 {
+          font-size: 24px !important;
+          text-align: left;
+        }
+        h5 {
+          font-size: 22px !important;
+          text-align: left;
+        }
+      }
+
+      .Stage {
+        .Stage_button {
+          gap: 10px;
+          padding: 15px !important;
+
+          > svg {
+            width: 15px;
+          }
+          .Stage_button_h6 {
+            font-size: 18px !important;
+          }
+        }
+
+        .Stage_div.expanded {
+          height: 420px;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          transition: height 0.3s ease-in-out;
+
+          > .inner_cont {
+            width: 80%;
+            margin: 0 auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+
+            ul {
+              list-style-type: disc;
+
+              li {
+                font-size: 14px !important;
+                line-height: 1.3;
+                color: #152547;
+                font-weight: 400;
+              }
+            }
+
+            p {
+              font-size: 14px;
+            }
+          }
+
+          .bottom_text {
+            > h6 {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+
+      .next {
+        h4 {
+          font-size: 20px;
+          text-align: left;
+
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}
