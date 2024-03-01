@@ -3,7 +3,8 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 30px;
-
+  position: relative;
+  
   > h3 {
     text-align: center;
     margin: 20px 0;
@@ -239,4 +240,3 @@
     }
   }
 }
-

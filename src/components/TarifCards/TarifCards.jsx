@@ -1,9 +1,18 @@
+import { useState } from "react";
 import classes from "./TarifCards.module.scss";
+import Form from "../Form/Form";
 
 const TarifCards = () => {
+  const [showFormModal, setShowFormModal] = useState(false);
+
+  // Функция для отображения/скрытия формы
+  const toggleFormModal = () => {
+    setShowFormModal(!showFormModal);
+  };
+
   return (
     <div className={classes.TarifCards}>
-      <h3>ВЫБЕРИТЕ ТАРИФ ДЛЯ УЧАСТИЯ</h3>
+      <h3 id="Tarif">ВЫБЕРИТЕ ТАРИФ ДЛЯ УЧАСТИЯ</h3>
       <section className={classes.inner_cards}>
         <article className={classes.card}>
           <h5>всё сам</h5>
@@ -208,11 +217,16 @@ const TarifCards = () => {
           </div>
           <div className={classes.btn_cont}>
             <h6>Осталось мест: ထ</h6>
-            <button className={classes.book_btn}>Забронировать место</button>
-            <button className={classes.btn_make}>Оформить рассрочку</button>
+            <button className={classes.book_btn} onClick={toggleFormModal}>
+              Забронировать место
+            </button>
+            <button className={classes.btn_make} onClick={toggleFormModal}>
+              Оформить рассрочку
+            </button>
           </div>
-        </article>
 
+          {showFormModal && <Form onClose={toggleFormModal} />}
+        </article>
         {/* second card */}
         <article className={classes.card}>
           <h5>профессионал</h5>
@@ -230,7 +244,6 @@ const TarifCards = () => {
           </div>
           <hr />
 
-          {/* cards html */}
           <ul className={classes.cards_list}>
             <li>
               <img
@@ -403,12 +416,17 @@ const TarifCards = () => {
           </div>
           <div className={classes.btn_cont}>
             <h6>Осталось мест: 2</h6>
-            <button className={classes.book_btn}>Забронировать место</button>
-            <button className={classes.btn_make}>Оформить рассрочку</button>
+            <button className={classes.book_btn} onClick={toggleFormModal}>
+              Забронировать место
+            </button>
+            <button className={classes.btn_make} onClick={toggleFormModal}>
+              Оформить рассрочку
+            </button>
           </div>
+
+          {showFormModal && <Form onClose={toggleFormModal} />}
         </article>
 
-        {/* third 3 card */}
         <article className={classes.card}>
           <h5>всё сам</h5>
           <p>стать менеджером маркетплейсов самостоятельно</p>
@@ -425,7 +443,6 @@ const TarifCards = () => {
           </div>
           <hr />
 
-          {/* cards html */}
           <ul className={classes.cards_list}>
             <li>
               <img
@@ -595,10 +612,16 @@ const TarifCards = () => {
           </div>
           <div className={classes.btn_cont}>
             <h6>Осталось мест: 1</h6>
-            <button className={classes.book_btn}>Забронировать место</button>
-            <button className={classes.btn_make}>Оформить рассрочку</button>
+            <button className={classes.book_btn} onClick={toggleFormModal}>
+              Забронировать место
+            </button>
+            <button className={classes.btn_make} onClick={toggleFormModal}>
+              Оформить рассрочку
+            </button>
           </div>
-        </article>
+
+          {showFormModal && <Form onClose={toggleFormModal} />}
+          </article>
       </section>
     </div>
   );
