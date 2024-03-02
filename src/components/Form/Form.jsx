@@ -67,7 +67,7 @@ const Form = (props) => {
   // Функция для отправки формы
   const submitData = (e) => {
     e.preventDefault();
-    fetch(" http://localhost:5000/telegram", {
+    fetch(" http://localhost:8080/telegram", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
