@@ -2,7 +2,8 @@ import { useState } from "react";
 import classes from "./App.module.scss";
 import Form from "./components/Form/Form";
 import Layout from "./components/module/Layout/Layout";
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/module/Home/Home";
 function App() {
   const [showForm, setShowForm] = useState(false);
   const toggleForm = () => {
@@ -11,11 +12,10 @@ function App() {
   };
   return (
     <div className={classes.App}>
-      <Layout>
-        {/* <Routes>
-          <Route path="/form" element={<Form />} />
-        </Routes> */}
-      </Layout>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="/form" element={<Form />} />
+      </Routes>
     </div>
   );
 }

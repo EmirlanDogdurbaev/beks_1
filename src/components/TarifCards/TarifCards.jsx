@@ -1,6 +1,7 @@
 import { useState } from "react";
 import classes from "./TarifCards.module.scss";
 import Form from "../Form/Form";
+import { Link } from "react-router-dom";
 
 const TarifCards = () => {
   const [showFormModal, setShowFormModal] = useState(false);
@@ -217,12 +218,12 @@ const TarifCards = () => {
           </div>
           <div className={classes.btn_cont}>
             <h6>Осталось мест: ထ</h6>
-            <button className={classes.book_btn} onClick={toggleFormModal}>
+            <Link className={classes.book_btn} to={"/form"}>
               Забронировать место
-            </button>
-            <button className={classes.btn_make} onClick={toggleFormModal}>
+            </Link>
+            <Link className={classes.btn_make} to={"/form"}>
               Оформить рассрочку
-            </button>
+            </Link>
           </div>
 
           {showFormModal && <Form onClose={toggleFormModal} />}
@@ -416,15 +417,13 @@ const TarifCards = () => {
           </div>
           <div className={classes.btn_cont}>
             <h6>Осталось мест: 2</h6>
-            <button className={classes.book_btn} onClick={toggleFormModal}>
+            <Link className={classes.book_btn} to={"/form"}>
               Забронировать место
-            </button>
-            <button className={classes.btn_make} onClick={toggleFormModal}>
+            </Link>
+            <Link className={classes.btn_make} to={"/form"}>
               Оформить рассрочку
-            </button>
+            </Link>
           </div>
-
-          {showFormModal && <Form onClose={toggleFormModal} />}
         </article>
 
         <article className={classes.card}>
@@ -612,16 +611,14 @@ const TarifCards = () => {
           </div>
           <div className={classes.btn_cont}>
             <h6>Осталось мест: 1</h6>
-            <button className={classes.book_btn} onClick={toggleFormModal}>
+            <Link className={classes.book_btn} to={"/form"}>
               Забронировать место
-            </button>
-            <button className={classes.btn_make} onClick={toggleFormModal}>
+            </Link>
+            <Link className={classes.btn_make} to={"/form"}>
               Оформить рассрочку
-            </button>
+            </Link>
           </div>
-
-          {showFormModal && <Form onClose={toggleFormModal} />}
-          </article>
+        </article>
       </section>
     </div>
   );

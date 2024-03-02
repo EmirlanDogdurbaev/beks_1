@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Form.module.scss";
+import { Link } from "react-router-dom";
 const Form = (props) => {
   // Создаём состояния для наших инпутов.
   const [name, setName] = useState("");
@@ -43,7 +44,11 @@ const Form = (props) => {
   const changeHandlerPhone = (e) => {
     setPhone(e.target.value);
     const re = /^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/;
-    if (!re.test(String(e.target.value).toLowerCase())) {
+    const re2 = /^\+?(996)?[-\(]?\d{3}\)?-?\d{2}-?\d{2}-?\d{2}$/;
+    if (
+      !re.test(String(e.target.value).toLowerCase()) &&
+      !re2.test(String(e.target.value).toLowerCase())
+    ) {
       setPhoneError("Некоректный номер телефона");
     } else {
       setPhoneError("");
@@ -65,6 +70,19 @@ const Form = (props) => {
   }, [emailError, phoneError, nameError]);
 
   // Функция для отправки формы
+  // const submitData = (e) => {
+  //   e.preventDefault();
+  //   fetch(" http://localhost:8080/telegram", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify({ name, email, phone, description }),
+  //   })
+  //     .then((response) => response.json())
+  //     .then((result) => alert(result.response.msg));
+  // };
+
   const submitData = (e) => {
     e.preventDefault();
     fetch(" http://localhost:8080/telegram", {
@@ -75,9 +93,18 @@ const Form = (props) => {
       body: JSON.stringify({ name, email, phone, description }),
     })
       .then((response) => response.json())
-      .then((result) => alert(result.response.msg));
+      .then((result) => {
+        alert(result.response.msg);
+        // Очищаем поля после успешной отправки
+        setName("");
+        setEmail("");
+        setPhone("");
+        setDescription("");
+      })
+      .catch((error) => {
+        console.error("Ошибка отправки формы:", error);
+      });
   };
-
   const blurHandler = (e) => {
     switch (e.target.name) {
       case "name":
@@ -135,7 +162,7 @@ const Form = (props) => {
               value={phone}
               id=""
               name="phone"
-              placeholder="Введите номер телефона:"
+              placeholder="Введите номер телефона: +9965000213120"
             />
           </div>
           <div className={classes.user_box}>
@@ -159,9 +186,9 @@ const Form = (props) => {
             Отправить форму
           </button>
 
-          <button onClick={props.toggleForModal} className={classes.btn_red}>
-            отменить
-          </button>
+          <Link to={"/"} className={classes.btn_red}>
+            Вернуться
+          </Link>
         </form>
       </div>
     </div>

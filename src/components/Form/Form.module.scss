@@ -1,20 +1,15 @@
 .wrapper {
   background-color: rgba(191, 191, 191, 0.14);
   width: 100%;
-  height: 1000px;
-  position: absolute;
-  bottom: 1%;
-  left: 1%;
-  z-index: 40;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login_box {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
   width: 450px;
   padding: 40px;
-  transform: translate(-50%, -50%);
   background: rgb(255, 255, 255);
   box-sizing: border-box;
   box-shadow: 0 15px 25px #f1f0f0;
@@ -118,8 +113,8 @@
   font-size: 16px;
   color: red;
   position: absolute;
-  top: 79px;
-  left: 54%;
+  top: 144px;
+  left: 52%;
   transform: translateX(-50%);
   width: 400px;
 }
@@ -128,8 +123,8 @@
   color: red;
   line-height: 48px;
   position: absolute;
-  top: 156px;
-  left: 54%;
+  top: 227px;
+  left: 52%;
   transform: translateX(-50%);
   width: 400px;
 }
@@ -138,8 +133,8 @@
   color: red;
   line-height: 48px;
   position: absolute;
-  top: 249px;
-  left: 54%;
+  top: 314px;
+  left: 52%;
   transform: translateX(-50%);
   width: 400px;
 }
