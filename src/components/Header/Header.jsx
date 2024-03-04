@@ -30,7 +30,7 @@ const Header = () => {
             </h5>
           </div>
         </section>
-        <section>
+        <section className={classes.img_cont}>
         <img src={img} alt="" width={350}/>
         </section>
       </div>

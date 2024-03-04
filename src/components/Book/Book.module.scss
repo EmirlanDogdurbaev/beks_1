@@ -239,6 +239,11 @@
 @media screen and (max-width: 430px) {
   .Book {
     margin-top: 50px;
+
+    h3,span{
+      font-size: 18px !important;
+      line-height: 1.5 !important;
+    }
     .cont {
       width: 370px;
       margin-top: 20px;
@@ -247,11 +252,6 @@
     }
     .cont2 {
       height: auto;
-    }
-
-    h3 {
-      font-size: 28px;
-      padding: 5px;
     }
 
     .second {
