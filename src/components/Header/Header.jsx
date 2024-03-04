@@ -10,7 +10,7 @@ const Header = () => {
               <h6>авторский онлайн курс </h6>
               <h4>Юлии Шандер</h4>
             </div>
-            <h4>практический онлайн-курс</h4>
+            
           </aside>
           <div className={classes.text_cont}>
             <h2>

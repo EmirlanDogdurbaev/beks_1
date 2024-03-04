@@ -237,7 +237,7 @@ const TarifCards = () => {
             <h4>
               8 899<p>руб./месяц</p>
             </h4>
-            <small>в рассрочку на 12 мес.</small>
+            <small>в рассрочку на 10 мес.</small>
           </span>
           <div className={classes.price2}>
             <strong>88 990 руб.</strong>
