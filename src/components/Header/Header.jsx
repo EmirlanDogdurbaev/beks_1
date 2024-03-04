@@ -1,5 +1,5 @@
 import classes from "./Header.module.scss";
-
+import img from "../../assets/b.png"
 const Header = () => {
   return (
     <div className={classes.Header}>
@@ -7,14 +7,14 @@ const Header = () => {
         <section className={classes.cont_left}>
           <aside>
             <div>
-              <h6>online aschool</h6>
-              <h4>market clever</h4>
+              <h6>авторский онлайн курс </h6>
+              <h4>Юлии Шандер</h4>
             </div>
             <h4>практический онлайн-курс</h4>
           </aside>
           <div className={classes.text_cont}>
             <h2>
-              <span>pro</span> менеджер маркетплейсов
+              <span>profi</span> менеджер маркетплейсов
             </h2>
             <h4>
               Начните получать
@@ -31,12 +31,7 @@ const Header = () => {
           </div>
         </section>
         <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            eum neque sint tenetur! Dignissimos quaerat perspiciatis molestias
-            nostrum in aliquam accusamus sunt debitis natus laboriosam tenetur
-            neque esse, ratione corrupti?
-          </p>
+        <img src={img} alt="" width={350}/>
         </section>
       </div>
     </div>

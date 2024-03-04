@@ -44,7 +44,7 @@ const Form = (props) => {
   const changeHandlerPhone = (e) => {
     setPhone(e.target.value);
     const re = /^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/;
-    const re2 = /^\+?(996)?[-\(]?\d{3}\)?-?\d{2}-?\d{2}-?\d{2}$/;
+    const re2 = /^\+?(996)[-\(]?(\d{3})\)?[- ]?(\d{2})[- ]?(\d{2})[- ]?(\d{2})$/;
     if (
       !re.test(String(e.target.value).toLowerCase()) &&
       !re2.test(String(e.target.value).toLowerCase())
@@ -94,8 +94,8 @@ const Form = (props) => {
     })
       .then((response) => response.json())
       .then((result) => {
-        alert(result.response.msg);
-        // Очищаем поля после успешной отправки
+        alert(result.message);
+
         setName("");
         setEmail("");
         setPhone("");

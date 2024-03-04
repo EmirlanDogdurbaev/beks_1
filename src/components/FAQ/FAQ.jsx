@@ -348,7 +348,7 @@ const FAQ = () => {
                 <div className={classes.inner_cont}>
                   <article className={classes.article}>
                     Никаких сложных программ для работы Вам не потребуется.
-                    Максимум - это таблицы Excel и сервис Shopstat. Плюс
+                    Максимум - это таблицы Excel . Плюс
                     подробные инструкции как работать в таких программах и
                     сайтах уже есть в курсе.
                   </article>
@@ -356,72 +356,7 @@ const FAQ = () => {
               )}
             </div>
           </div>
-          <div className={classes.Stage}>
-            <button className={classes.Stage_button} onClick={handleClick6}>
-              <h6 className={classes.Stage_button_h6}>
-                ГАРАНТИРУЕТЕ ЛИ ВЫ, ЧТО ПОСЛЕ КУРСА Я СМОГУ НАЙТИ КЛИЕНТОВ?
-              </h6>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className={`${classes.Stage_icon} ${
-                  isRotated6 ? classes.rotated : ""
-                }`}
-              >
-                <line
-                  x1="0"
-                  y1="0"
-                  x2="24"
-                  y2="24"
-                  stroke="black"
-                  strokeWidth="2"
-                />
-                <line
-                  x1="24"
-                  y1="0"
-                  x2="0"
-                  y2="24"
-                  stroke="black"
-                  strokeWidth="2"
-                />
-              </svg>
-            </button>
-            <div
-              className={
-                isActive6
-                  ? `${classes.Stage_div} ${classes.expanded6}`
-                  : classes.Stage_div
-              }
-            >
-              {isActive6 && (
-                <div className={classes.inner_cont}>
-                  <article className={classes.article}>
-                    На курсе мы даем вам практику с реальным поставщиком в
-                    течение 2-х недель.
-                  </article>
-                  <article className={classes.article}>
-                    Вам не нужно продавать себя, разрабатывать скрипты и
-                    отрабатывать возражения, нужно брать готового клиента в
-                    работу и получать реальную практику, тем самым уже в ходе
-                    обучения создавать своё портфолио.
-                  </article>
-                  <article className={classes.article}>
-                    И мы опубликуем ваше портфолио и резюме на канале вакансий
-                    школы MarketClever.
-                  </article>
-                  <article className={classes.article}>
-                    Часть студентов трудоустраиваются после практики с этими же
-                    клиентами. Плюс на курсе мы сделали целый модуль по поиску
-                    клиентов (где искать, как искать, как себя подать и т.д.).
-                    Если вы будете выполнять все рекомендации, то клиента вы
-                    точно найдете.
-                  </article>
-                </div>
-              )}
-            </div>
-          </div>
+         
           <div className={classes.Stage}>
             <button className={classes.Stage_button} onClick={handleClick7}>
               <h6 className={classes.Stage_button_h6}>
@@ -521,7 +456,7 @@ const FAQ = () => {
                     В зависимости от того, сколько усилий и времени человек
                     готов посвящать работе. В среднем, успешные менеджеры
                     маркетплейсов, с доходом от 100 тыс. руб, ведут более 3
-                    поставщиков. Юлия Назаркова, в самом начале развития карьера
+                    поставщиков. Юлия Шанжер, в самом начале развития карьеры
                     на маркетплейсах, работала с 10 поставщиками.
                   </article>
                 </div>

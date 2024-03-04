@@ -15,7 +15,7 @@ const TarifCards = () => {
     <div className={classes.TarifCards}>
       <h3 id="Tarif">ВЫБЕРИТЕ ТАРИФ ДЛЯ УЧАСТИЯ</h3>
       <section className={classes.inner_cards}>
-        <article className={classes.card}>
+        {/* <article className={classes.card}>
           <h5>всё сам</h5>
           <p>стать менеджером маркетплейсов самостоятельно</p>
           <span>
@@ -31,7 +31,7 @@ const TarifCards = () => {
           </div>
           <hr />
 
-          {/* cards html */}
+          
           <ul className={classes.cards_list}>
             <li>
               <img
@@ -227,7 +227,7 @@ const TarifCards = () => {
           </div>
 
           {showFormModal && <Form onClose={toggleFormModal} />}
-        </article>
+        </article> */}
         {/* second card */}
         <article className={classes.card}>
           <h5>профессионал</h5>
@@ -235,13 +235,13 @@ const TarifCards = () => {
           <span>
             <small className={classes.price}> Цена сегодня</small>
             <h4>
-              7 083<p>руб./месяц</p>
+              8 899<p>руб./месяц</p>
             </h4>
             <small>в рассрочку на 12 мес.</small>
           </span>
           <div className={classes.price2}>
-            <strong>84 990 руб.</strong>
-            <strike>104 990 руб.</strike>
+            <strong>88 990 руб.</strong>
+            <strike>109 990 руб.</strike>
           </div>
           <hr />
 
@@ -275,17 +275,7 @@ const TarifCards = () => {
               />
               <span> Доступ к урокам на 6 месяцев </span>
             </li>
-            <li>
-              <img
-                src="https://static.tildacdn.com/tild3939-6535-4537-b863-643838396139/noun_Check_Mark_2.svg"
-                alt="icon"
-                width={21}
-                height={20}
-              />
-              <span>
-                <strong>Сертификат</strong>о происхождении курса
-              </span>
-            </li>
+           
             <li>
               <img
                 src="https://static.tildacdn.com/tild3939-6535-4537-b863-643838396139/noun_Check_Mark_2.svg"
@@ -321,7 +311,7 @@ const TarifCards = () => {
                 width={21}
                 height={20}
               />
-              <span> Домашние задания без проверки </span>
+              <span> Домашние задания с проверкой </span>
             </li>
             <li>
               <img
@@ -330,7 +320,7 @@ const TarifCards = () => {
                 width={22}
                 height={23}
               />
-              <span> Ответы на вопросы в чатах и на обучающей платформе </span>
+              <span> Ответы на вопросы в чатах  </span>
             </li>
             <li>
               <img
@@ -339,7 +329,7 @@ const TarifCards = () => {
                 width={22}
                 height={23}
               />
-              <span>6 групповых мастер-майндов с наставниками</span>
+              <span>1 час созвона с автором курса</span>
             </li>
             <li>
               <img
@@ -348,7 +338,7 @@ const TarifCards = () => {
                 width={22}
                 height={23}
               />
-              <span>2 онлайн-встречи с нашими экспертами </span>
+              <span>2 онлайн-встречи с приглашенными экспертами </span>
             </li>
             <li>
               <img
@@ -387,30 +377,9 @@ const TarifCards = () => {
                 width={22}
                 height={23}
               />
-              <span>Публикация резюме на канале вакансий школы</span>
+              <span>доступ к тестовому кабинету для практики</span>
             </li>
-            <li>
-              <img
-                src="https://static.tildacdn.com/tild6562-3130-4532-b662-343232313630/photo.svg"
-                alt="minus"
-                width={22}
-                height={23}
-              />
-              <span className={classes.minus}>
-                Даём до 5 поставщиков для возможности большого трудоустройства
-              </span>
-            </li>
-            <li>
-              <img
-                src="https://static.tildacdn.com/tild6562-3130-4532-b662-343232313630/photo.svg"
-                alt="minus"
-                width={22}
-                height={23}
-              />
-              <span className={classes.minus}>
-                Доступ на 3 месяца сообщество MarketClever Family
-              </span>
-            </li>
+           
           </ul>
           <div className={classes.bonus}>
             <strong>+БОНУСЫ</strong>
@@ -426,7 +395,7 @@ const TarifCards = () => {
           </div>
         </article>
 
-        <article className={classes.card}>
+        {/* <article className={classes.card}>
           <h5>всё сам</h5>
           <p>стать менеджером маркетплейсов самостоятельно</p>
           <span>
@@ -618,7 +587,7 @@ const TarifCards = () => {
               Оформить рассрочку
             </Link>
           </div>
-        </article>
+        </article> */}
       </section>
     </div>
   );

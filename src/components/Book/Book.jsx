@@ -5,7 +5,7 @@ const Book = () => {
     <div className={classes.Book}>
       <h3>
         ЗАПИШИТЕСЬ НА КУРС ДО КОНЦА ДНЯ <br /> И ПОЛУЧИТЕ
-        <span>БОНУСЫ НА 39 960 руб.</span>
+        <span>БОНУСЫ НА 36 000 руб. </span> <br/> 2 живых урока по OZON
       </h3>
       <section className={classes.cont}>
         <div className={classes.inner_cont_1}>
@@ -62,49 +62,7 @@ const Book = () => {
         </div>
       </section>
 
-      <section className={classes.cont2}>
-        <div className={classes.list}>
-          <p>
-            <strong>Модуль</strong>
-            по работе на Озон
-          </p>
-          <span className={classes.violet}>9.990₽</span>
-        </div>
-        <div className={classes.list}>
-          <p>
-            <strong>Эксклюзивный мастер-класс</strong>
-            "Как создать продающее описание карточки товара за 1 минуту с
-            помощью нейросети"
-          </p>
-          <span className={classes.violet}>9.990₽</span>
-        </div>
-        <div className={classes.list}>
-          <p>
-            <strong>Уроки по инфографике в специализированных сервисах</strong>
-            “Продающие карточки товаров за несколько минут с помощью готовых
-            шаблонов”
-          </p>
-          <span className={classes.violet}>9.990₽</span>
-        </div>
-        <div className={classes.list}>
-          <p>
-            <strong>МАСТЕР-КЛАСС ОТ ОЛЬГИ БАРСУКОВОЙ</strong>
-            (ВЕДУЩИЙ АНАЛИТИК СЕРВИСА MPSTATS) “КАК ОПТИМИЗИРОВАТЬ SEO, ЧТОБЫ
-            КАРТОЧКА ЛУЧШЕ ПРОДВИГАЛАСЬ”
-          </p>
-          <span className={classes.violet}>9.990₽</span>
-        </div>
-        <button className={classes.btn}>
-          Записаться на курс{" "}
-          <img
-            src="https://static.tildacdn.com/tild3336-3464-4963-b133-346462326665/photo.svg"
-            alt=""
-
-            width={44}
-            height={46}
-          />
-        </button>
-      </section>
+     
     </div>
   );
 };

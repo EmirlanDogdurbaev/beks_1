@@ -4,19 +4,19 @@ const Cards = () => {
   return (
     <>
       <article className={classes.Card}>
-        <h5> 3600</h5>
-        <p>Учеников обучила профессии</p>
+        <h5>200</h5>
+        <p>Учеников уже зарабатывают</p>
       </article>
       <article className={classes.Card}>
         <h5> 80/20</h5>
         <p>80% практики и 20% теории</p>
       </article>
       <article className={classes.Card}>
-        <h5>90%</h5>
+        <h5>98%</h5>
         <p>Учеников проходят курс до конца</p>
       </article>{" "}
       <article className={classes.Card}>
-        <h5> 15-20 минут</h5>
+        <h5> 1,5 часа</h5>
         <p>Длительность уроков</p>
       </article>
     </>

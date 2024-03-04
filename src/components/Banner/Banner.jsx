@@ -21,7 +21,7 @@ const Banner = () => {
             className={classes.noneimg}
           />
           <h4>Беспроцентная рассрочка</h4>
-          <p>от 6 249 руб. / месяц</p>
+          <p>от 8 899 руб. / месяц</p>
         </div>
         <div className={classes.hight_left}>
           <ul>
@@ -40,7 +40,7 @@ const Banner = () => {
 
       <div className={classes.middle_cont}>
         <span>
-          <p>На 4/6/10/12 месяцев от банка-партнера</p>
+          <p>На 4/6/10 месяцев от банка-партнера</p>
           <img
             src="https://optim.tildacdn.com/tild3236-3963-4463-a430-366531623364/-/resize/384x/-/format/webp/1d2d8a12-049a-478a-9.png"
             alt="logo"

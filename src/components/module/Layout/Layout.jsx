@@ -770,7 +770,7 @@ const Layout = () => {
                 </ul>
                 <div className={classes.bottom}>
                   <p>
-                    Благодаря этому навыку вы увеличите ЗП минимум на 10 000
+                    Благодаря этому навыку вы увеличите ЗП минимум на 20 000
                     руб. в месяц
                   </p>
                 </div>
@@ -833,7 +833,7 @@ const Layout = () => {
       <section className={classes.text}>
         <p>
           после этого этапа вы увеличите стоимость своей работы будете получать
-          от 50 000 в месяц <br />+ на каждом навыке сможете зарабатывать
+          от 70 000 в месяц <br />+ на каждом навыке сможете зарабатывать
           отдельно
         </p>
       </section>
@@ -842,9 +842,7 @@ const Layout = () => {
         <Tools />
       </section>
 
-      <section className={classes.tarif_cont}>
-        <Tarif />
-      </section>
+
 
       <section className={classes.tarif_cards_cont}>
         <TarifCards />
@@ -854,13 +852,11 @@ const Layout = () => {
         <Banner />
       </section>
 
-      <section>
+      <section style={{marginBottom: "100px"}}>
         <Book />
       </section>
 
-      <section>
-        <After />
-      </section>
+     
 
       <section>
         <FAQ />
