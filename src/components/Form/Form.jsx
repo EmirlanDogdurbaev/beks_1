@@ -44,7 +44,8 @@ const Form = (props) => {
   const changeHandlerPhone = (e) => {
     setPhone(e.target.value);
     const re = /^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$/;
-    const re2 = /^\+?(996)[-\(]?(\d{3})\)?[- ]?(\d{2})[- ]?(\d{2})[- ]?(\d{2})$/;
+    const re2 =
+      /^\+?(996)[-\(]?(\d{3})\)?[- ]?(\d{2})[- ]?(\d{2})[- ]?(\d{2})$/;
     if (
       !re.test(String(e.target.value).toLowerCase()) &&
       !re2.test(String(e.target.value).toLowerCase())
@@ -85,7 +86,7 @@ const Form = (props) => {
 
   const submitData = (e) => {
     e.preventDefault();
-    fetch(" http://localhost:8080/telegram", {
+    fetch("https://server-tg-mm8n.onrender.com/telegram", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
