@@ -1,0 +1,82 @@
+.reviews {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  > h4 {
+    font-size: 32px !important;
+  }
+
+  > div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    > article {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      border: 1px solid #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      background-color: white;
+      margin: 20px;
+
+      > h4 {
+        font-size: 20px;
+      }
+
+      > aside {
+        p {
+          text-align: justify;
+          font-size: 16px;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 960px) {
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    padding: 800px 0;
+    margin-bottom: 100px;
+
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .Tools {
+    .right{
+      display: none;
+    }
+    > .left {
+      width: 100%;
+      article {
+        width: 370px !important;
+        background-size: 100%;
+        background-image: none;
+        background-color: white;
+        border-radius: 30px;
+        padding: 30px 20px;
+        height: auto;
+        margin: 0 auto !important;
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

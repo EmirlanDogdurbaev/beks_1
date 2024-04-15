@@ -16,24 +16,26 @@
     display: flex;
     justify-content: center;
 
-    align-items: center;
+    align-items: flex-end;
+
     .cont_left {
       padding: 20px;
+
       > aside {
         display: flex;
         gap: 20px;
         align-items: flex-end;
         margin: 10px 0;
+
         h6 {
           font-size: 14px;
         }
+
         h4 {
           color: #152547;
-          line-height: 22px;
           font-size: 14px;
           font-family: "FuturaPT", Arial, sans-serif;
           line-height: 1.55;
-          font-weight: 500;
           letter-spacing: 0.5px;
           text-transform: uppercase;
           font-weight: 700;
@@ -47,7 +49,7 @@
           font-weight: 700;
           text-transform: uppercase;
           color: rgb(21, 37, 71);
-          font-family: "FuturaPT", Arial, sans-serif;
+
           span {
             color: rgb(196, 64, 214);
           }
@@ -82,6 +84,16 @@
           border-style: solid;
         }
       }
+
+
+    }
+
+
+    > img {
+      margin-right: -100px;
+      margin-bottom: -100px;
+      width: 500px;
+
     }
   }
 }
@@ -89,9 +101,12 @@
 @media (max-width: 960px) {
   .Header {
     width: 960px;
+    height: 1200px;
+
 
     .inner_cont {
       width: 600px;
+
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -111,8 +126,20 @@
           font-size: 24px !important;
           opacity: 1;
         }
+
         > h5 {
           font-size: 18px;
+        }
+      }
+
+
+      .img_cont {
+        height: auto;
+
+        > img {
+
+          height: 700px;
+          width: 600px;
         }
       }
     }
@@ -172,6 +199,7 @@
       width: 100%;
       display: flex;
       flex-direction: column;
+
       .cont_left {
         padding: 10px;
 
@@ -188,6 +216,7 @@
       .text_cont {
         width: 100%;
         overflow: hidden;
+
         > h2 {
           font-size: 36px !important;
           margin: 10px 0;
@@ -204,8 +233,8 @@
         }
       }
 
-      .img_cont{
-        img{
+      .img_cont {
+        img {
           width: 280px !important;
           height: 400px !important;
         }

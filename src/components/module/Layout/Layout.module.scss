@@ -508,7 +508,6 @@
         line-height: 1.35;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 27px;
         margin: 20px auto;
       }
     }
@@ -842,6 +841,15 @@
       font-size: 18px;
     }
   }
+
+  .tools_cont{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+
+  .reviews{
+    height: 1000px !important;
+  }
 }
 
 @media (max-width: 430px) {
@@ -1172,6 +1180,15 @@
       line-height: 1.5;
       font-size: 18px;
     }
+  }
+
+  .tools_cont{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+
+  .reviews{
+  padding: 100px 0;
   }
 }
 
