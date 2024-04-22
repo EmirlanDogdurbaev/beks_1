@@ -1,5 +1,6 @@
 import classes from "./Header.module.scss";
 import img from "../../assets/new_woman.png"
+
 const Header = () => {
     return (
         <div className={classes.Header}>
@@ -31,7 +32,7 @@ const Header = () => {
                     </div>
                 </section>
 
-                    <img src={img} alt="" width={400} />
+                <img src={img} alt="" width={400}/>
 
             </div>
         </div>

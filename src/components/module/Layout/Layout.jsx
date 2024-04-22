@@ -6,7 +6,7 @@ import Header from "../../Header/Header";
 import TarifCards from "../../TarifCards/TarifCards";
 import Tools from "../../Tools/Tools";
 import classes from "./Layout.module.scss";
-import React, {useState} from "react";
+import {useState} from "react";
 import Reviews from "../../Reviews/Reviews.jsx";
 
 const Layout = () => {
