@@ -1,5 +1,5 @@
 import classes from "./Header.module.scss";
-import img from "../../assets/new_woman.png"
+import img from "../../assets/bggg.png"
 
 const Header = () => {
     return (
@@ -8,7 +8,7 @@ const Header = () => {
                 <section className={classes.cont_left}>
                     <aside>
                         <div>
-                            <h6>авторский онлайн курс </h6>
+                            <h6>Авторский онлайн - курс </h6>
                             <h4>Юлии Шандер</h4>
                         </div>
 
@@ -32,7 +32,7 @@ const Header = () => {
                     </div>
                 </section>
 
-                <img src={img} alt="" width={400}/>
+                <img src={img} alt="" width={350}  />
 
             </div>
         </div>

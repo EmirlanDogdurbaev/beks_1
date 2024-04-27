@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
 .Header {
   width: 1300px;
   height: 681px;
@@ -14,9 +17,8 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-
-    align-items: flex-end;
+    overflow: hidden;
+    align-items: center;
 
     .cont_left {
       padding: 20px;
@@ -28,12 +30,13 @@
         margin: 10px 0;
 
         h6 {
-          font-size: 14px;
+          font-size: 16px;
+          font-family: "Marck Script", cursive;
         }
 
         h4 {
           color: #152547;
-          font-size: 14px;
+          font-size: 18px;
           font-family: "FuturaPT", Arial, sans-serif;
           line-height: 1.55;
           letter-spacing: 0.5px;
@@ -92,8 +95,7 @@
     > img {
       margin-right: -100px;
       margin-bottom: -100px;
-      width: 500px;
-
+      width: 480px;
     }
   }
 }
