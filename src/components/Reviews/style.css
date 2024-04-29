@@ -1,6 +1,7 @@
 #app {
     height: 100%;
 }
+
 html,
 body {
     position: relative;
@@ -18,7 +19,7 @@ body {
 
 .swiper {
     width: 100%;
-    height: 540px;
+    height: 340px;
 }
 
 .swiper-slide {
@@ -27,22 +28,21 @@ body {
     border-radius: 10px;
     background: #fff;
     padding: 16px;
-    /*!* Center slide text vertically *!*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    width: 100% !important;
+    height: 300px !important;
 }
 
 
-.swiper-slide > article >aside >p{
+.swiper-slide > article > aside > p {
     text-align: justify;
     font-size: 18px;
 }
 
-.swiper-slide > article >h4{
+.swiper-slide > article > h4 {
     margin-bottom: 10px;
     font-size: 22px;
 }
+
 .swiper-slide img {
     display: block;
     width: 100%;

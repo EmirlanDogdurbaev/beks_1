@@ -29,19 +29,25 @@
         align-items: flex-end;
         margin: 10px 0;
 
-        h6 {
-          font-size: 16px;
-          font-family: "Marck Script", cursive;
-        }
+        > div {
+          display: flex;align-items: flex-start;
 
-        h4 {
-          color: #152547;
-          font-size: 18px;
-          font-family: "FuturaPT", Arial, sans-serif;
-          line-height: 1.55;
-          letter-spacing: 0.5px;
-          text-transform: uppercase;
-          font-weight: 700;
+          flex-direction: column;
+          h6 {
+            font-size: 40px;
+            font-family: "Marck Script", cursive;
+            color: gold;
+          }
+
+          h4 {
+            color: #152547;
+            font-size: 22px;
+            font-family: "FuturaPT", Arial, sans-serif;
+            line-height: 1.55;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-weight: 700;
+          }
         }
       }
 
