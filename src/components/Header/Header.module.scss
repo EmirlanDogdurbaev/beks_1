@@ -30,9 +30,11 @@
         margin: 10px 0;
 
         > div {
-          display: flex;align-items: flex-start;
+          display: flex;
+          align-items: flex-start;
 
           flex-direction: column;
+
           h6 {
             font-size: 40px;
             font-family: "Marck Script", cursive;
@@ -111,7 +113,6 @@
     width: 960px;
     height: 1200px;
 
-
     .inner_cont {
       width: 600px;
 
@@ -141,15 +142,10 @@
       }
 
 
-      .img_cont {
-        height: auto;
-
-        > img {
-
-          height: 700px;
-          width: 600px;
-        }
+      > img {
+        width: 400px !important;
       }
+
     }
   }
 }
@@ -241,11 +237,14 @@
         }
       }
 
-      .img_cont {
-        img {
-          width: 280px !important;
-          height: 400px !important;
-        }
+
+      img {
+        width: 380px;
+        height: 400px !important;
+
+        margin-right: 0 !important;
+        margin-bottom: -100px;
+
       }
     }
   }

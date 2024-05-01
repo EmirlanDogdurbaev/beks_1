@@ -32,7 +32,7 @@ const Header = () => {
                     </div>
                 </section>
 
-                <img src={img} alt="" width={350}  />
+                <img src={img} alt="" width={350}/>
 
             </div>
         </div>

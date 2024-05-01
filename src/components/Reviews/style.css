@@ -49,3 +49,19 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+
+@media screen and (max-width: 430px) {
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        border-radius: 10px;
+        background: #fff;
+        padding: 16px;
+        width: 100% !important;
+        height: 300px !important;
+    }
+    .swiper-slide > article > aside > p {
+        font-size: 12px;
+    }
+}

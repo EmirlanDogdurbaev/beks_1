@@ -16,6 +16,7 @@
       letter-spacing: 1px;
       text-transform: uppercase;
     }
+
     .t {
       color: #152547;
       font-size: 18px;
@@ -116,10 +117,12 @@
         margin: 0 !important;
         order: 1;
       }
+
       .second {
         margin: 0;
         order: 1;
       }
+
       .third {
         margin: 2px;
       }
@@ -129,11 +132,13 @@
 
 @media screen and (max-width: 430px) {
   .Tools {
-    .right{
+    .right {
       display: none;
     }
+
     > .left {
       width: 100%;
+
       article {
         width: 370px !important;
         background-size: 100%;
@@ -143,10 +148,11 @@
         padding: 30px 20px;
         height: auto;
         margin: 0 auto !important;
+
         p {
           width: 100%;
         }
-      } 
+      }
     }
   }
 }

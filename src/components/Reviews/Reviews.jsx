@@ -21,9 +21,8 @@ const Reviews = () => {
                     modules={[Pagination]}
                     className="mySwiper"
                 >
-
                     <SwiperSlide style={{height: '500px'}}>
-                        <article style={{
+                        <article className={classes.card} style={{
                             display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
                         }}>
                             <h4>Ольга Никулина</h4>
