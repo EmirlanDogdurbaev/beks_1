@@ -1,15 +1,12 @@
-import { useState } from "react";
+
 import classes from "./TarifCards.module.scss";
-import Form from "../Form/Form";
 import { Link } from "react-router-dom";
 
 const TarifCards = () => {
-  const [showFormModal, setShowFormModal] = useState(false);
+  // const [showFormModal, setShowFormModal] = useState(false);
 
   // Функция для отображения/скрытия формы
-  const toggleFormModal = () => {
-    setShowFormModal(!showFormModal);
-  };
+
 
   return (
     <div className={classes.TarifCards}>
