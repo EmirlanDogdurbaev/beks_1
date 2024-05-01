@@ -338,7 +338,7 @@ const TarifCards = () => {
                 width={22}
                 height={23}
               />
-              <span>2 онлайн-встречи с приглашенными экспертами </span>
+              <span>3 онлайн-встречи с приглашенными экспертами </span>
             </li>
             <li>
               <img
@@ -361,15 +361,15 @@ const TarifCards = () => {
                 Бесплатный доступ на 30 дней к сервису аналитики MPSTATS
               </span>
             </li>
-            <li>
-              <img
-                src="https://static.tildacdn.com/tild3939-6535-4537-b863-643838396139/noun_Check_Mark_2.svg"
-                alt="icon"
-                width={22}
-                height={23}
-              />
-              <span>Практика с реальным поставщиком 2 недели</span>
-            </li>
+            {/*<li>*/}
+            {/*  <img*/}
+            {/*    src="https://static.tildacdn.com/tild3939-6535-4537-b863-643838396139/noun_Check_Mark_2.svg"*/}
+            {/*    alt="icon"*/}
+            {/*    width={22}*/}
+            {/*    height={23}*/}
+            {/*  />*/}
+            {/*  <span>Практика с реальным поставщиком 2 недели</span>*/}
+            {/*</li>*/}
             <li>
               <img
                 src="https://static.tildacdn.com/tild3939-6535-4537-b863-643838396139/noun_Check_Mark_2.svg"
