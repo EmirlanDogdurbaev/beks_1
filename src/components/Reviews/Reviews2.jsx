@@ -37,47 +37,6 @@ const Reviews = () => {
                             </aside>
                         </article>
                     </SwiperSlide>
-                    <SwiperSlide style={{height: '500px'}}>
-                        <article style={{
-                            display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
-                        }}>
-                            <h4>Гульназ
-                            </h4>
-                            <aside style={{
-                                display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'
-                            }}>
-                                <p>
-                                    Девочки! Не могу не поделиться!!Представляете мне предложили работу на WB,да конечно
-                                    пока я
-                                    буду разгребать старые карточки,но это сразу практика. Когдая селлеру обяснила ,что
-                                    именно мы
-                                    проходим и, в каком формате нам дает информацию Юля. Он сказал "я беру тебя" .
-                                    Короче я в шоке.
-                                    На испытательном сроке предложил 25К. Юля, спасибо вам огромное с нетерпением , жду
-                                    каждый день
-                                    учебы и новую информацию, это бесценно!
-                                </p>
-                            </aside>
-                        </article>
-                    </SwiperSlide>
-                    <SwiperSlide style={{height: '500px'}}>
-                        <article style={{
-                            display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
-                        }}>
-                            <h4> Fedorova Madina
-                            </h4>
-                            <aside style={{
-                                display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'
-                            }}>
-                                <p>
-                                    До обучения: Не может найти достойную работу с плавающим графиком, чтобы больше
-                                    видеться с
-                                    дочкой
-                                    Во время обучения: Начала работать пару часов в день и вышла на доход в 50.000 руб
-                                </p>
-                            </aside>
-                        </article>
-                    </SwiperSlide>
 
 
                 </Swiper>

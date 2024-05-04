@@ -8,7 +8,6 @@ import Tools from "../../Tools/Tools";
 import classes from "./Layout.module.scss";
 import {useState} from "react";
 import Reviews from "../../Reviews/Reviews.jsx";
-import Reviews2 from "../../Reviews/Reviews2.jsx";
 
 const Layout = () => {
     const [isActive, setIsActive] = useState(false);
@@ -145,7 +144,7 @@ const Layout = () => {
                         Ваш путь на обучении в <span>3 этапа</span>
                     </h3>
                     <h5>
-                        <span>ЭТАП № 1:</span> Разберётесь как устроены маркетплейсы
+                        <span>ЭТАП №1:</span> Разберётесь как устроены маркетплейсы
                     </h5>
                 </div>
                 <div className={classes.Stage}>
@@ -222,7 +221,7 @@ const Layout = () => {
                     </h4>
                     <div className={classes.header_path}>
                         <h3>
-                            <span> ЭТАП № 2:</span>Работа в кабинете WB
+                            <span> ЭТАП №2:</span>Работа в кабинете WB
                         </h3>
                     </div>
                     <div className={classes.Stage}>
@@ -846,9 +845,7 @@ const Layout = () => {
             <section className={classes.reviews}>
                 <Reviews/>
             </section>
-            <section className={classes.reviews}>
-                <Reviews2/>
-            </section>
+
 
             <section className={classes.tarif_cards_cont}>
                 <TarifCards/>

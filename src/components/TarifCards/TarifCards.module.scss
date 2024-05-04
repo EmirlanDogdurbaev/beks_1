@@ -238,6 +238,10 @@
       flex-wrap: wrap;
       gap: 40px;
       justify-content: center;
+
+      >article{
+        width: 340px !important;
+      }
     }
   }
 }
