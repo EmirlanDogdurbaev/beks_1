@@ -1,4 +1,3 @@
-import Banner from "../../Banner/Banner";
 import Book from "../../Book/Book";
 import Cards from "../../Cards/Cards";
 import FAQ from "../../FAQ/FAQ";
@@ -845,18 +844,20 @@ const Layout = () => {
             <section className={classes.reviews}>
                 <Reviews/>
             </section>
-
+            {/*<section className={classes.reviews}>*/}
+            {/*    <Reviews2/>*/}
+            {/*</section>*/}
 
             <section className={classes.tarif_cards_cont}>
                 <TarifCards/>
             </section>
 
-            <section>
-                <Banner/>
-            </section>
+            {/*<section>*/}
+            {/*    <Banner/>*/}
+            {/*</section>*/}
 
             <section style={{marginBottom: "100px"}}>
-                <Book/>
+                <Book initialHours={12} initialMinutes={5} initialSeconds={60}/>
             </section>
 
 
