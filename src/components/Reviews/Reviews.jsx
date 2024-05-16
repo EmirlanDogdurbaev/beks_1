@@ -100,7 +100,7 @@ const Reviews = () => {
                         <article style={{
                             display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
                         }}>
-
+                            <h4>Александр</h4>
                             <aside style={{
                                 display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'
                             }}>
@@ -116,7 +116,7 @@ const Reviews = () => {
                         <article style={{
                             display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
                         }}>
-
+                            <h4>Дмитрий</h4>
                             <aside style={{
                                 display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'
                             }}>
@@ -131,7 +131,7 @@ const Reviews = () => {
                         <article style={{
                             display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
                         }}>
-
+                            <h4>Мария</h4>
                             <aside style={{
                                 display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'
                             }}>
@@ -148,6 +148,7 @@ const Reviews = () => {
                         <article style={{
                             display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '10px'
                         }}>
+                            <h4>Анастасия</h4>
 
                             <aside style={{
                                 display: 'flex', flexDirection: 'column', alignItems: 'flex-start', textAlign: 'left'
