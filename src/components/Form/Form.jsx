@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import classes from "./Form.module.scss";
 import { Link } from "react-router-dom";
-const Form = (props) => {
-  // Создаём состояния для наших инпутов.
+const Form = () => {
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -70,19 +70,6 @@ const Form = (props) => {
     }
   }, [emailError, phoneError, nameError]);
 
-  // Функция для отправки формы
-  // const submitData = (e) => {
-  //   e.preventDefault();
-  //   fetch(" http://localhost:8080/telegram", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({ name, email, phone, description }),
-  //   })
-  //     .then((response) => response.json())
-  //     .then((result) => alert(result.response.msg));
-  // };
 
   const submitData = (e) => {
     e.preventDefault();
